@@ -386,15 +386,15 @@ const QUESTIONS = [
   },
   {
     "t": "s",
-    "q": "You reach a PHU that is not one of the ten pilot facilities. The chiefdom list has no entry for it. What do you do?",
+    "q": "You are at Gerehun CHC in Baoma Chiefdom. After choosing the facility, the Health Facility Type shows CHC. What should you do with that field?",
     "opts": [
-      "Choose the nearest facility in the list",
-      "Choose any facility in the same chiefdom",
-      "Stop, and report the missing facility — do not substitute another",
-      "Type the name into the supervisor field instead"
+      "Type over it with the type you believe is correct",
+      "Clear it so the DHMT can complete it",
+      "Leave it — it is filled from the facility list; read it back to confirm it matches this facility",
+      "Change it to CHP because the facility is small"
     ],
     "ans": 2,
-    "exp": "Substituting a facility corrupts every record that follows. A missing facility is a data issue to report."
+    "exp": "The type is filled from the facility list and cannot be edited. Read it back against the facility you are standing in, and report any mismatch rather than working around it."
   },
   {
     "t": "s",
